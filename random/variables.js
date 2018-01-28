@@ -9,8 +9,7 @@
 //var 123 = 'yes'; //syntaxerror: Unexpected number
 //var he llo ='yes'; //syntaxerror: Unexpected identifier
 //var he/llo ='yes'; //syntaxerror: Unexpected token /
-var he;
-llo ='yes'; //syntaxerror: Unexpected identifier
+var he;llo ='yes'; 
 //console.log(he;llo); //syntaxerror: missing ) after argument list
 console.log(he); //undefined
 //console.log(she);// Reference error: she is not defined
