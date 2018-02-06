@@ -1,6 +1,6 @@
 # EloquentJS
 
-This repository holds chapterwise solutions for exercises in [Eloquent JS](http://eloquentjavascript.net/).
+This repository holds chapterwise solutions for exercises in [Eloquent JS](http://eloquentjavascript.net/3rd_edition).
 
 - Chapter 2: [Looping a Triangle](https://github.com/ramyaragupathy/EloquentJS/blob/master/ch2/triangle.js) | [FizzBuzz](https://github.com/ramyaragupathy/EloquentJS/blob/master/ch2/fizzbuzz.js) | [Chess Board](https://github.com/ramyaragupathy/EloquentJS/blob/master/ch2/chessboard.js)
 - Chapter 3: [Minimum](https://github.com/ramyaragupathy/EloquentJS/blob/master/ch3/min.js) | [Recursion](https://github.com/ramyaragupathy/EloquentJS/blob/master/ch3/isEven.js) | [Character Count](https://github.com/ramyaragupathy/EloquentJS/blob/master/ch3/countChar.js)
