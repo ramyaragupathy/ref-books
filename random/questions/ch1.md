@@ -28,15 +28,15 @@
     SyntaxError
     
 10. What's the output here?</br>
-   ```
-   var q= `what
+    ```
+    var q= `what
 	      gets
 	      printed out 
           of this?`;
-   console.log(q);
-   ```
-   </br>
-   what</br>
-   gets</br>
-   printed out</br>
-   of this?</br>
+    console.log(q);
+    ```
+    </br>
+    what</br>
+    gets</br>
+    printed out</br>
+    of this?</br>
