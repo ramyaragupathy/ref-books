@@ -51,3 +51,9 @@
 
 17. How to write a multiline comment?
     Using /* ... */
+
+18. Keywords for conditional execution:
+    if, else, switch
+
+19. Is function a value type?
+    YES

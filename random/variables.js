@@ -105,6 +105,9 @@ console.log(typeof yetAnotherNum); //boolean
 console.log(Number('abc'));//NaN
 
 
+console.log(typeof valueOf);//function
+
+
 
 
 
