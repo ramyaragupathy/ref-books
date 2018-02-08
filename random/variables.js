@@ -16,3 +16,9 @@ console.log(he); //undefined
 console.log(llo); // yes
 //var h&t; //syntaxerror: Unexpected token &
 var _hello;
+
+var q= `what
+gets
+printed out 
+of this?`;
+console.log(q);
