@@ -17,8 +17,8 @@
 9. What's the output of this code?</br>
    ```
    var q= 'what
-	  gets
-	  printed out 
+	      gets
+	      printed out 
           of this?';
    console.log(q);
    ```
@@ -30,8 +30,8 @@
 10. What's the output here?</br>
    ```
    var q= `what
-	  gets
-	  printed out 
+	      gets
+	      printed out 
           of this?`;
    console.log(q);
    ```
