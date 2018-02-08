@@ -15,26 +15,28 @@
 8. `typeof NaN`</br>
    Number
 9. What's the output of this code?</br>
-   ```var q= 'what
+   ```
+   var q= 'what
 	  gets
 	  printed out 
-      of this?';
-      console.log(q);```
-   </br>
-   
-    > SyntaxError
+          of this?';
+   console.log(q);
+   ```
+    
     </br>
+   
+    SyntaxError
+    
 10. What's the output here?</br>
-```var q= `what
-   gets
-   printed out 
-   of this?`; ```
-   
-   </br>
-   
-   `console.log(q);`
+   ```
+   var q= `what
+	  gets
+	  printed out 
+          of this?`;
+   console.log(q);
+   ```
 
-    >what</br>
-     gets</br>
-     printed out</br>
-     of this?</br>
+    > what
+    > gets
+    > printed out
+    > of this?
