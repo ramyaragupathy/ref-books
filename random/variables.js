@@ -43,13 +43,12 @@ console.log(equality); // true
 const reverseEquality = (a==3 && a==2 && a==1);
 console.log(reverseEquality); // false
 
-var b = 0;
+const b = {num: 0};
 
-function valueOf(num){
-	return num += 1;
-}
- var checkVar = (a==1 && a==2 && a==3);
- console.log(equality);
+const valueOf = () => {console.log(this.num);
+	this.num += 1;};
+var checkVar = (b==1 && b==2 && b==3);
+console.log(checkVar); //false
 // var aﾠ = 1;
 // var a = 2;
 // var ﾠa = 3;
@@ -90,22 +89,22 @@ function valueOf(num){
 // //[23, 56, 67].map((num)=> num * discount)
 
 
-console.log(Math.max('r','z')); //NaN
-console.log(Math.max('r','a',1));//NaN
-console.log(Math.max(1));//1
+// console.log(Math.max('r','z')); //NaN
+// console.log(Math.max('r','a',1));//NaN
+// console.log(Math.max(1));//1
 
-var num = 5;
-var anotherNum = String(num);
-var yetAnotherNum = Boolean(num);
-console.log(typeof anotherNum); //string
-console.log(yetAnotherNum); //true
-console.log(typeof yetAnotherNum); //boolean
-
-
-console.log(Number('abc'));//NaN
+// var num = 5;
+// var anotherNum = String(num);
+// var yetAnotherNum = Boolean(num);
+// console.log(typeof anotherNum); //string
+// console.log(yetAnotherNum); //true
+// console.log(typeof yetAnotherNum); //boolean
 
 
-console.log(typeof valueOf);//function
+// console.log(Number('abc'));//NaN
+
+
+// console.log(typeof valueOf);//function
 
 
 
