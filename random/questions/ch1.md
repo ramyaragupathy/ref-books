@@ -20,14 +20,19 @@
 	  printed out 
       of this?';
       console.log(q);```
-
-    SyntaxError
+   </br>
+   
+    > SyntaxError
+    </br>
 10. What's the output here?</br>
 ```var q= `what
    gets
    printed out 
-   of this?`;
-   console.log(q);```
+   of this?`; ```
+   
+   </br>
+   
+   `console.log(q);`
 
     >what</br>
      gets</br>
