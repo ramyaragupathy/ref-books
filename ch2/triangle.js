@@ -11,16 +11,14 @@ Write a loop that makes seven calls to console.log to output the following trian
 
 */
 
-for(i=1;i<8;i++){
-	var j = i;
-	var str ='';
-	
-    do{
-    	str += '#'
-    	
-    	j--;
+for (let i = 1; i < 8; i++) {
+  var j = i
+  var str = ''
 
-    }while(j!=0);
+  do {
+    str += '#'
+    j--
+  } while (j !== 0)
 
-	console.log(str)
+  console.log(str)
 }
