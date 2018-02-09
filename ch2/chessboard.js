@@ -18,7 +18,7 @@ for any size, outputting a grid of the given width and height.
 
 */
 
-function chessboard (size, inputStr) {
+const chessboard = (size, inputStr) => {
   let printStr = ''
   let filler = ' '
   for (let i = 1; i <= size; i++) {
