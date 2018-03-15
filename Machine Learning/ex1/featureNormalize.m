@@ -5,58 +5,13 @@ function [X_norm, mu, sigma] = featureNormalize(X)
 %   is 1. This is often a good preprocessing step to do when
 %   working with learning algorithms.
 
-% You need to set these values correctly
-X_norm = X;
-mu = zeros(1, size(X, 2));
-sigma = zeros(1, size(X, 2));
+X_norm = X; %X_norm matrix to hold normalised values
+numColumns = size(X, 2); % taking the number of columns from X vector which denotes num of features
 
-% ====================== YOUR CODE HERE ======================
-% Instructions: First, for each feature dimension, compute the mean
-%               of the feature and subtract it from the dataset,
-%               storing the mean value in mu. Next, compute the
-%               standard deviation of each feature and divide
-%               each feature by it's standard deviation, storing
-%               the standard deviation in sigma.
-%
-%               Note that X is a matrix where each column is a
-%               feature and each row is an example. You need
-%               to perform the normalization separately for
-%               each feature.
-%
-% Hint: You might find the 'mean' and 'std' functions useful.
-%
-
-mean_X1=mean(X(:,1));
-std_X1=std(X(:,1));
-mean_X2=mean(X(:,2));
-std_X2=std(X(:,2));
-k=size(X);
-m=k(1,1);
-
-%mu=[mean_X1(1:m,1), mean_X2(1:m,2)];
-for i=1:m
-mu(i,1)=mean_X1;
-mu(i,2)=mean_X2;
-end
-%sigma=[std_X1(1:m,1),std_X2(1:m,2)];
-for i=1:m
-sigma(i,1)=std_X1;
-sigma(i,2)=std_X2;
-end
-
-% Compute X_norm
-X_norm=(X-mu)./sigma
-
-   
-
-
-
-
-
-
-
-
-
-% ============================================================
+mu = mean(X); % returns mean for each column, rowwise is done with mean(X,2)
+sigma = std(X); % returns std for each column
+for i = 1:numColumns
+    X_norm(:,i) = (X(:, i) - mu(i)) / sigma(i);
+end;
 
 end
