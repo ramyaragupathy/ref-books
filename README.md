@@ -13,8 +13,9 @@ Solutions to Coursera learning tracks
 ### Linear Regression 
 
 - Univariate: [Cost Computation](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/computeCost.m) | [Gradient Descent](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/gradientDescent.m)
-- Multivariate: Cost Computation | Gradient Descent 
-- Feature normalisation
+- Multivariate: [Cost Computation](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/computeCostMulti.m) | [Gradient Descent](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/gradientDescentMulti.m)
+- [Feature normalisation](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/featureNormalize.m)
+- [Normal Equations](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/normalEqn.m)
 
 
 
