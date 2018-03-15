@@ -8,7 +8,8 @@ m = length(y); % number of training examples
 
 % You need to return the following variables correctly
 J = 0;
-hypotheses = X * theta; % order matters, matrix multiplication is not commutative
+hypotheses = X * theta;
+% order matters, matrix multiplication is not commutative
 squared_errors = (hypotheses - y) .^ 2;
-J = sum(squared_errors)/(2*m)
+J = sum(squared_errors)/(2*m);
 end

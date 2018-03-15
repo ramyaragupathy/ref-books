@@ -17,10 +17,16 @@ for iter = 1:num_iters
     %       of the cost function (computeCost) and gradient here.
     %
 
-    hypotheses = X * theta; % X is 97x2, theta is 2x1, h is 97x1(predicted prices)
-    errors = hypotheses - y; % y is 97x1 as well. errors has elementwise subtraction and it is a 97-dimensional vector
-    delta = X' * errors; % X is 97x2, errors is 97x1, so do a transpose on X
-    theta = theta - (alpha / m) * delta;
+    hypotheses = X * theta;
+    errors = hypotheses - y;
+    % theta_0 = theta(1) - (alpha/m) * sum (errors .* X(:,1));
+    % theta_1 = theta(2) - (alpha/m) * sum (errors .* X(:,2));
+    % theta = [theta_0; theta_1];
+    delta = X' * errors;
+    % delta returns a 2-dimensional vector, note sum is not explicitly specified
+    % delta's first element holds each error element multiplied by x0=1, so it is just sum of errors
+    % delta's second element holds each error element multiplied by the corresposnding feature element
+    theta = theta - (alpha/m) * delta;
 
 
     % ============================================================
