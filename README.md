@@ -17,6 +17,8 @@ Solutions to Coursera learning tracks
 - Feature Normalisation: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/featureNormalize.m) | [Python](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/ex1_multi.py#L10-L22)
 - Normal Equations: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/normalEqn.m) |  [Python](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/ex1_multi.py#L25-L26)
 
+### Logistic Regression
+
 
 
 
