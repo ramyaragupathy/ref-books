@@ -12,4 +12,6 @@ hypotheses = X * theta;
 % order matters, matrix multiplication is not commutative
 squared_errors = (hypotheses - y) .^ 2;
 J = sum(squared_errors)/(2*m);
+% 1/2 does not affect your prediction
+% without 1/2 cost is just double, but the prediction remains the same
 end

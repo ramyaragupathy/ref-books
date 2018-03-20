@@ -103,11 +103,11 @@ pause;
 fprintf('Visualizing J(theta_0, theta_1) ...\n')
 
 % Grid over which we will calculate J
-theta0_vals = linspace(-10, 10, 100);
-theta1_vals = linspace(-1, 4, 100);
+theta0_vals = linspace(-10, 10, 100); % linspace(start, stop, length) 21 element space stretched to 100, so diff will be 0.21
+theta1_vals = linspace(-1, 4, 100); % 9 element space stretched to 100, so diff will be 0.9
 
 % initialize J_vals to a matrix of 0's
-J_vals = zeros(length(theta0_vals), length(theta1_vals));
+J_vals = zeros(length(theta0_vals), length(theta1_vals)); % 100 by 100
 
 % Fill out J_vals
 for i = 1:length(theta0_vals)
