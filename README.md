@@ -18,10 +18,10 @@ Solutions to Coursera learning tracks
 - Normal Equations: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/normalEqn.m) |  [Python](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/ex1_multi.py#L25-L26)
 
 ### Logistic Regression
-- Sigmoid: [Octave]() | [Python]()
-- Cost Function: [Octave]() | [Python]()
-- Prediction Function: [Octave]() | [Python]()
-- Regularised cost: [Octave]() | [Python]()
+- Sigmoid: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex2/sigmoid.m) | Python
+- Cost Function: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex2/costFunction.m) | Python
+- Prediction Function: Octave | Python
+- Regularised cost: Octave | Python
 
 
 
