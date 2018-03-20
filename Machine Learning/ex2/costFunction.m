@@ -24,8 +24,7 @@ hypotheses = sigmoid(X * theta);
 log_errors = -y' * (log(hypotheses)) - (1-y)' * (log(1-hypotheses));
 sum_log_errors = sum(log_errors);
 J = sum_log_errors/m;
-delta = (sum(hypotheses - y)* X)/m;
-grad = delta;
+grad = (X' * (hypotheses - y) )/m;
 
 
 
