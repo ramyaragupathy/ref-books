@@ -18,11 +18,20 @@ Solutions to Coursera learning tracks
 - Normal Equations: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/normalEqn.m) |  [Python](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/ex1_multi.py#L25-L26)
 
 ### Logistic Regression
+
+**Binary Classification**
+
 - Sigmoid: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex2/sigmoid.m) | Python
 - Cost Function: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex2/costFunction.m) | Python
 - Prediction Function: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex2/predict.m) | Python
 - Regularised cost: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex2/costFunctionReg.m) | Python
+- Regularised 
 
+**Multiclass classification**
+
+- Regularised cost: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex3/lrCostFunction.m)| [Python]
+- One-vs-all classifier training: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex3/oneVsAll.m) | [Python]
+- One-vs-all classifier prediction: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex3/predictOneVsAll.m) | [Python]
 
 
 
