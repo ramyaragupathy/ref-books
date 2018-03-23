@@ -1,4 +1,4 @@
-What is Logistic Regression?
+## What is Logistic Regression?
 
 Logistic Regression although named regression is actually a *classification* technique and not a regression. It is named regression because the technique is quite similar to linear regression
 
@@ -7,6 +7,7 @@ Linear regression is a supervised machine learning technique which works well wh
 Predictive model for these types of problems, which are known as classification problems can be done using logistic regression.In classification, our target column has a finite set of possible values which represent different categories a row can belong to. We use integers to represent the different categories so we can continue to use mathematical functions to describe how the independent variables map to the dependent variable.
 
 **What is Classification?**
+
 Classification is termed when you want the output in buckets. Following are examples of classification problems and logistic regression can be employed for them.
 
 
