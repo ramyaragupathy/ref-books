@@ -17,6 +17,13 @@ Solutions to Coursera learning tracks
 - Feature Normalisation: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/featureNormalize.m) | [Python](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/ex1_multi.py#L10-L22)
 - Normal Equations: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/normalEqn.m) |  [Python](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex1/ex1_multi.py#L25-L26)
 
+### Regularised linear regression
+
+- Cost Computation: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex5/linearRegCostFunction.m) | Python
+- Learning Curve: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex5/learningCurve.m) | Python
+- Polynomial features: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex5/polyFeatures.m) | Python
+- Validation curve: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex5/validationCurve.m) | Python
+
 ### Logistic Regression
 
 **Binary Classification**
@@ -38,7 +45,7 @@ Solutions to Coursera learning tracks
 
 - Sigmoid Gradient: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex4/sigmoidGradient.m) | Python
 - Prediction: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex3/predict.m) | Python
-- Cost Function: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex4/nnCostFunction.m)| Python
+- Cost Function: [Octave](https://github.com/ramyaragupathy/Coursera/blob/master/Machine%20Learning/ex4/nnCostFunction.m) | Python
 
 
 
