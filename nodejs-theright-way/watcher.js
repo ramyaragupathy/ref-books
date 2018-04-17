@@ -3,8 +3,7 @@
 const fs = require('fs')
 const spawn = require('child_process').spawn
 const filename = process.argv[2]
-const child = process.argv[3]
-
+const childProcess = process.argv.slice(3)
 if (!filename) {
   throw Error('A file to watch must be specified')
 }
@@ -21,7 +20,7 @@ if (fileExists) {
     if (event === 'rename') {
       throw Error('Target file renamed/deleted')
     }
-    let ls = spawn(child, ['-lh', filename])
+    let ls = spawn(childProcess[0], [...childProcess.slice(1), filename])
 
     let output = ''
     // ls.stdout.pipe(process.stdout)
